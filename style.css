@@ -14,3 +14,27 @@
 .blue{
     color: var(--secondary);
 }
+
+.hero{
+    background-color: #F5FCFF;
+}
+
+.btn-color{
+    color:  #F5FCFF;
+    background-color: var(--primary);
+}
+
+.john{
+    color: #282938;
+}
+
+.lead{
+    color: #1C1E53 !important;
+} 
+
+#purple{
+    color: var(--primary);
+}
+.about{
+    color: #282938;
+}

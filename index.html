@@ -1,53 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- navbar start -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
 
-    <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="#">
         <img src="images/Logo (1).svg" alt="logo">
-    </a>
+      </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
 
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link purple" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link blue" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link blue" href="#">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link blue" href="#">Testimonials</a>
-        </li>
-      </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link purple" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link blue" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link blue" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link blue" href="#">Testimonials</a>
+          </li>
+        </ul>
 
-      <button class="btn btn-purple" type="button">Contact Me</button>
+        <button class="btn btn-purple" type="button">Contact Me</button>
 
+      </div>
     </div>
-  </div>
-</nav>
-<!-- navbar end -->
+  </nav>
+  <!-- navbar end -->
 
-<script src="bootstrap.js"></script>
+  <!-- hero section start -->
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row hero flex-lg-row-reverse align-items-center g-5 py-5 ">
+      <div class="col-10 col-sm-12 col-lg-6"> <img src="images/Group 11 1.svg" class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
+      <div class="col-lg-6">
+        <h6 class="john">Hey, I am John</h6>
+        <h1 class="display-5 lead fw-bold text-body-emphasis lh-1 mb-3">I create <span id="purple">product design</span>
+          and brand experience</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+          elementum tristique.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <button type="button"
+            class="btn btn-color btn-lg px-4 me-md-2">Get in Touch</button> </div>
+      </div>
+    </div>
+    <!-- hero section end-->
+    <!-- features section start -->
+    <div class="container px-4 py-5" id="icon-grid">
+      <h6>My Skills</h6>
+      <h2 class="pb-2">My Expertise</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start"> <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em"
+            height="1.75em" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <div>
+            <img src="images/Strategy & Direction (1).png" alt="">
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Strategy & Direction</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start"> <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em"
+            height="1.75em" aria-hidden="true">
+            <use xlink:href="#cpu-fill"></use>
+          </svg>
+          <div>
+            <img src="images/Branding & Logo.png" alt="">
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Branding & Logo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start"> <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em"
+            height="1.75em" aria-hidden="true">
+            <use xlink:href="#calendar3"></use>
+          </svg>
+          <div>
+            <img src="images/UI & UX Design.png" alt="">
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">UI & UX Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start"> <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em"
+            height="1.75em" aria-hidden="true">
+            <use xlink:href="#home"></use>
+          </svg>
+          <div>
+            <img src="images/Webflow Development.png" alt="">
+            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Webflow Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          </div>
+        </div>
+    </div>
+    <!-- features section end -->
+     <!-- hero section start -->
+        <div class="container col-xxl-8 px-4 py-5">
+    <div class="row hero flex-lg-row-reverse align-items-center g-5 py-5 ">
+      <div class="col-10 col-sm-12 col-lg-6 order-1"> <img src="images/About Me.png" class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
+      <div class="col-lg-6">
+        <h6 class="john">About me</h6>
+        <h1 class="display-5 lead fw-bold about lh-1 mb-3">About Me </h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.
+Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+      
+      <!-- hero section start -->
+    <script src="bootstrap.js"></script>
 </body>
+
 </html>
